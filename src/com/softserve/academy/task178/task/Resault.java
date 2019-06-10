@@ -5,19 +5,16 @@ public class Resault {
     private int quantity;
     private int sum;
 
-    Resault(int q, int s)
-    {
+    Resault(int q, int s) {
         quantity = q;
         sum = s;
     }
 
-    public int getQuantity()
-    {
+    public int getQuantity() {
         return quantity;
     }
 
-    public int getSum()
-    {
+    public int getSum() {
         return sum;
     }
 
